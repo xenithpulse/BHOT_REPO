@@ -8,7 +8,7 @@ import Footer from "@/components/footer";
 import Image from 'next/image';
 import ShuffledProducts from "@/components/shuffledhomeproducts";
 import Home from "@/components/category_box";
-import { getShuffledProducts } from "./product/shuffledproduct"; // Import the new shuffled products service
+import { getShuffledProducts } from "../components/Product/shuffledproduct"; // Import the new shuffled products service
 import ProductSlide from "@/components/NewProductsSLIDE";
 
 export default function HomePage({ newProducts, shuffledProducts }) {
